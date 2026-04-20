@@ -29,11 +29,18 @@ const projects = [
     github: "https://github.com/AnuragSanyal7439/BugOps"
   },
   {
-    title: "Club Event Manager",
+    title: "EV Charging Station App",
     description:
-      "A club-focused event management platform for creating events, managing registrations, tracking attendees, and keeping admin workflows organized.",
-    stack: ["React", "Django", "Java", "MySQL"],
-    github: "https://github.com/AnuragSanyal7439/club-event-manager"
+      "A practical application for helping users discover EV charging stations, review station details, and support a smoother charging workflow.",
+    stack: ["React", "JavaScript", "REST APIs", "Responsive UI"],
+    github: "https://github.com/AnuragSanyal7439/ev-charging-station-app-project"
+  },
+  {
+    title: "Spotify Auth",
+    description:
+      "A Node.js authentication service that implements Spotify OAuth, session handling, API requests, and environment-based configuration.",
+    stack: ["Node.js", "Express", "Spotify OAuth", "Axios"],
+    github: "https://github.com/AnuragSanyal7439/Spotify-auth"
   }
 ];
 
@@ -280,7 +287,7 @@ export default function Home() {
                 </div>
                 <div className="grid grid-cols-2 gap-3 pt-2">
                   <div className="rounded-lg border border-slate-200 p-4">
-                    <p className="text-2xl font-semibold text-ink">2</p>
+                    <p className="text-2xl font-semibold text-ink">3</p>
                     <p className="mt-1 text-xs text-muted">Featured projects</p>
                   </div>
                   <div className="rounded-lg border border-slate-200 p-4">
@@ -340,7 +347,7 @@ export default function Home() {
         <SectionHeading
           label="Projects"
           title="Selected work for recruiter review"
-          description="Two full stack projects that show product thinking, frontend execution, backend API design, and deployment awareness."
+          description="Selected projects that show product thinking, frontend execution, backend API design, and authentication workflow experience."
         />
         <div className="mx-auto mt-12 grid max-w-6xl gap-6 lg:grid-cols-2">
           {projects.map((project) => (
