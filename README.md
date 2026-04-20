@@ -1,6 +1,6 @@
 # Student Full Stack Developer Portfolio
 
-A clean, responsive portfolio built with Next.js and Tailwind CSS for a student full stack developer applying to Affordmed.
+A clean, responsive portfolio built with Next.js and Tailwind CSS for a student full stack developer.
 
 ## Quick Start
 

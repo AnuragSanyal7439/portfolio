@@ -4,7 +4,7 @@ const profile = {
   email: "sanyalanurag40@gmail.com",
   github: "https://github.com/AnuragSanyal7439",
   linkedin: "https://www.linkedin.com/in/anuragsanyal/",
-  resume: "/resume.pdf"
+  resume: "/api/resume"
 };
 
 const skills = [
@@ -236,8 +236,8 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
               I build responsive web applications with clean interfaces, reliable APIs,
-              and practical backend design. I am focused on shipping thoughtful
-              products and bringing that discipline to Affordmed.
+              and practical backend design. My focus is creating maintainable
+              products that solve real user problems and are easy to improve over time.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
@@ -317,7 +317,7 @@ export default function Home() {
               and database-backed product thinking.
             </p>
             <p>
-              For Affordmed, I bring a product-minded engineering approach: understand
+              I bring a product-minded engineering approach: understand
               the user workflow, keep the UI simple, design the API contract carefully,
               and deliver features that are easy to maintain.
             </p>
